@@ -228,15 +228,27 @@ footer {
 }
 
 .footer-button button {
-    width: 90%;
+    width: 95%;
     height: 65%;
     border-radius: 15px;
     border: none;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.336);
     transition: 500ms;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: .9rem;
 }
 
 .footer-button button:hover {
     background-color: white;
+}
+
+.footer-button span {
+    flex: 0.7;
+}
+
+.footer-button button img {
+    width: 35%;
 }
