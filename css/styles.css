@@ -38,6 +38,18 @@ body {
     background-size: cover;
     background-position: center;
     border-radius: inherit;
+    position: relative;
+}
+
+.arrow {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+
+.arrow img {
+    width: 27px;
+    cursor: pointer;
 }
 
 .hero-content {
