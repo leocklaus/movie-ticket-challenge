@@ -6,18 +6,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;700&display=swap" rel="stylesheet">
     <title>Cinema</title>
 </head>
 
 <body>
     <div class="container">
         <header class="hero">
-            <div class="hero-text">
-                <span class="hero-title">Guardians of the Galaxy Vol. 2</span>
-                <span class="hero-subtitle">Cineplex Entertainment, Toronto ON</span>
+            <div class="hero-content">
+                <div class="hero-text">
+                    <span class="hero-title">Guardians of the Galaxy Vol. 2</span>
+                    <span class="hero-subtitle">
+                        <img src="./img/location-icon.png" alt="location_icon">
+                        Cineplex Entertainment, Toronto ON
+                    </span>
+                </div>
             </div>
         </header>
-        <section class="legend"></section>
+        <section class="legend">
+            <div><img src="./img/green_seat.svg" alt="available seat"> Available</div>
+            <div><img src="./img/red_seat.svg" alt="available seat"> Selected</div>
+            <div><img src="./img/gray_seat.svg" alt="available seat"> Blocked</div>
+        </section>
         <main>
             <div class="seats-legend">
                 <span>G</span>
@@ -29,10 +41,99 @@
                 <span>A</span>
             </div>
             <div class="seats">
-                <div class="left-seats"></div>
-                <div class="right-seats"></div>
+                <div class="left-seats">
+                    <div class="seats-row">
+                        <div class="seat"></div>
+                        <div class="seat"></div>
+                        <div class="seat"></div>
+                        <div class="seat"></div>
+                    </div>
+                    <div class="seats-row">
+                        <div class="seat"></div>
+                        <div class="seat blocked"></div>
+                        <div class="seat"></div>
+                        <div class="seat"></div>
+                    </div>
+                    <div class="seats-row">
+                        <div class="seat"></div>
+                        <div class="seat"></div>
+                        <div class="seat"></div>
+                        <div class="seat"></div>
+                    </div>
+                    <div class="seats-row">
+                        <div class="seat"></div>
+                        <div class="seat"></div>
+                        <div class="seat"></div>
+                        <div class="seat"></div>
+                    </div>
+                    <div class="seats-row">
+                        <div class="seat"></div>
+                        <div class="seat selected"></div>
+                        <div class="seat"></div>
+                        <div class="seat"></div>
+                    </div>
+                    <div class="seats-row">
+                        <div class="seat"></div>
+                        <div class="seat"></div>
+                        <div class="seat"></div>
+                        <div class="seat"></div>
+                    </div>
+                    <div class="seats-row">
+                        <div class="seat"></div>
+                        <div class="seat"></div>
+                        <div class="seat"></div>
+                        <div class="seat"></div>
+                    </div>
+                </div>
+                <div class="right-seats">
+                    <div class="seats-row">
+                        <div class="seat"></div>
+                        <div class="seat"></div>
+                        <div class="seat"></div>
+                        <div class="seat"></div>
+                    </div>
+                    <div class="seats-row">
+                        <div class="seat"></div>
+                        <div class="seat"></div>
+                        <div class="seat"></div>
+                        <div class="seat"></div>
+                    </div>
+                    <div class="seats-row">
+                        <div class="seat"></div>
+                        <div class="seat"></div>
+                        <div class="seat"></div>
+                        <div class="seat"></div>
+                    </div>
+                    <div class="seats-row">
+                        <div class="seat"></div>
+                        <div class="seat"></div>
+                        <div class="seat"></div>
+                        <div class="seat"></div>
+                    </div>
+                    <div class="seats-row">
+                        <div class="seat"></div>
+                        <div class="seat"></div>
+                        <div class="seat"></div>
+                        <div class="seat"></div>
+                    </div>
+                    <div class="seats-row">
+                        <div class="seat"></div>
+                        <div class="seat"></div>
+                        <div class="seat"></div>
+                        <div class="seat"></div>
+                    </div>
+                    <div class="seats-row">
+                        <div class="seat"></div>
+                        <div class="seat"></div>
+                        <div class="seat"></div>
+                        <div class="seat"></div>
+                    </div>
+                </div>
             </div>
         </main>
+        <div class="screen">
+            <img src="./img/screen2.svg" alt="screen image">
+        </div>
         <footer>
             <div class="left-footer">
                 <span class="footer-text">Date</span>
@@ -45,7 +146,7 @@
                     <span class="footer-text">3</span>
                     <span class="footer-text">$35.00</span>
                 </div>
-                <div class="button">
+                <div class="footer-button">
                     <button>Next ></button>
                 </div>
             </div>
